@@ -2,8 +2,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    width: 100vw;
-    height: 100vh;
     flex-direction: column;
     font-family: Roboto, sans-serif;
 }
@@ -11,7 +9,7 @@ body {
     display: flex;
     background-color: #1f2937;
     justify-content: space-around;
-    padding: 0 32px;
+    padding: 0 80px;
 }
 
 .left {
@@ -34,10 +32,11 @@ a {
 }
 .headerdiv2 {
     display: flex;
-    padding: 32px;
+    padding: 80px;
     gap: 100px;
     background-color: #1f2937;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 .p1 {
     font-size: 48px;
@@ -49,14 +48,109 @@ a {
 }
 img {
     height: 300px;
-    width: 400px;
+    width: 500px;
 }
 .sign-up {
-    padding: 10px 20px;
+    padding: 12px 30px;
     background-color: #3882f6;
     color: #F9FaF8;
     border-radius: 10px;
+    font-size: 16px;
+    font-weight: 900;
 }
-.sign-up:hover{
+.sign-up:hover, .sign-up2:hover{
     cursor: pointer;
+}
+.body-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 52px;
+}
+.bodydiv1 {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.infobox {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+.box {
+    border: 3px solid #3882f6;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 10px;
+    border-radius: 10px;;
+}
+.boxtext {
+    text-align: center;
+    color: #747475;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.bodydiv2 {
+    background-color: #E5E7EB;
+    padding: 80px;
+    margin-bottom: 100px
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+.quoteauthor {
+    text-align: end;
+    color:#1f2937;
+    font-weight: 900;
+    font-size: 28px;
+}
+.calltoaction {
+    background-color:#3882f6;
+    padding: 80px 200px;
+    margin: 0 80px 100px 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.actiontextdiv {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px
+}
+.actiontext1 {
+    font-size: 36px;
+    color: #F9FaF8;
+    font-weight: 900;
+}
+.actiontext2 {
+    color: #E5E7EB;
+    font-weight: 300;
+}
+.actionbttn {
+    display: flex;
+}
+
+.sign-up2 {
+    padding: 12px 30px;
+    background-color: #3882f6;
+    color: #F9FaF8;
+    border: 2px solid #F9FaF8;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.footer {
+    background-color: #1f2937;
+    padding: 40px;
+    color: #F9FaF8;
+    text-align: center
 }
