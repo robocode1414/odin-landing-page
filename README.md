@@ -1,0 +1,1 @@
+quick project for the odin-project making a simple landing page css practice mostly flex box and simple stuff like that.
