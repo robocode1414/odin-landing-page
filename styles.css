@@ -8,7 +8,7 @@ body {
 .headerdiv {
     display: flex;
     background-color: #1f2937;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 80px;
     align-items: center;
 }
@@ -34,9 +34,9 @@ a {
 .headerdiv2 {
     display: flex;
     padding: 80px;
-    gap: 100px;
+    gap: 80px;
     background-color: #1f2937;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 .p1 {
