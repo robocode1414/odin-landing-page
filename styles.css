@@ -10,6 +10,7 @@ body {
     background-color: #1f2937;
     justify-content: space-around;
     padding: 0 80px;
+    align-items: center;
 }
 
 .left {
@@ -47,7 +48,7 @@ a {
     font-size: 18px;
 }
 img {
-    height: 300px;
+    height: 350px;
     width: 500px;
 }
 .sign-up {
